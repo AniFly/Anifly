@@ -230,7 +230,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Hero(
           tag: id.toString() + "_hero",
           child: FadeInImage(
-            placeholder: AssetImage('assets/images/background.jpg'),
+            placeholder: AssetImage('assets/images/placeholder.jpg'),
             image: CacheImage(URL),
             fit: BoxFit.cover,
           ),
